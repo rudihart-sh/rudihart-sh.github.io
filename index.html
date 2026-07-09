@@ -6,6 +6,8 @@
     <meta name="description" content="Landing page pribadi Rudi Hart">
     <title>Rudi Hart - Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Chat Widget Styles -->
+    <link rel="stylesheet" href="chat-widget.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -34,7 +36,7 @@
     <section id="about" class="about">
         <div class="container">
             <h2>Tentang Saya</h2>
-            <p>Saya adalah seorang developer yang passionate dalam membuat aplikasi web yang inovatif dan user-friendly. Saya senang belajar teknologi baru dan berbagi pengetahuan dengan komunitas.</p>
+            <p>Saya adalah seorang developer yang passionate dalam membuat aplikasi web yang inovatif dan user-friendly. Saya senang belajar teknologi baru dan berbagi pengetahuan dengan komunitas[...]</p>
         </div>
     </section>
 
@@ -78,5 +80,19 @@
     <footer class="footer">
         <p>&copy; 2026 Rudi Hart. Semua hak dilindungi.</p>
     </footer>
+
+    <!-- Chat Widget Script -->
+    <script src="chat-widget.js"></script>
+    <script>
+        // Initialize chat widget dengan API URL Anda
+        // Setelah deploy ke Vercel, update URL ini dengan URL API Vercel Anda
+        // Contoh: window.chatWidget.setApiUrl("https://your-project.vercel.app");
+        
+        // Placeholder untuk API URL - akan diupdate setelah deploy
+        document.addEventListener("DOMContentLoaded", () => {
+            // TODO: Set your Vercel API URL here
+            // window.chatWidget.setApiUrl("YOUR_VERCEL_API_URL");
+        });
+    </script>
 </body>
 </html>
